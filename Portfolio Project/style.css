@@ -1,0 +1,118 @@
+:root {
+    --gradient-one: #30cfd0;
+    --gradient-two: #330867;
+    --bg-color: #ffffff;
+    --links: #000000;
+  }
+
+[data-theme="light"] {
+    --gradient-one: #30cfd0;
+    --gradient-two: #330867;
+    --bg-color: #ffffff;
+    --links: #000000;
+  }
+  
+  [data-theme="dark"] {
+    --gradient-one: rgba(245, 107, 244, 0.79);
+    --gradient-two: #efad05;
+    --bg-color: #21232f;
+    --links: #FFFFFF;
+  }
+
+body {
+
+    background-color: #2F2F2F;
+    font-family: outfit;
+    margin: 0 400px;
+}
+
+nav {
+    display: flex;
+    margin: 25px;
+    margin-bottom: -1.25rem;
+    justify-content: space-between;
+    color: white;
+    align-items: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-links ul {
+    display: flex;
+}
+.nav-links ul li{
+    margin: 0 25px;
+}
+
+main {
+    margin: 25px;
+}
+
+.about {
+    display: flex;
+}
+.about img {
+    width: auto;
+    height: auto;
+}
+p {
+   background-color: #ffffff75;
+   border-radius: 25px;
+   padding: 25px;
+   margin: 0 50px;
+   max-height: 250px;
+   font-size: 1.25rem;
+   width: 700px;
+}
+.project {
+    color: white;
+    font-size: 20px;
+}
+.profil {
+    width: 863px;
+    height: auto;
+}
+footer {
+    height: 150px;
+    color: white;
+    font-size: 1.25rem;
+    margin-left: 25px;
+}
+
+footer img {
+  height: 124px;
+  width: 289px;
+  margin: 10px 25px;
+}
+
+.contact {
+    color: white;
+}
+.contact p {
+    color: black;
+}
+.contact li {
+    font-size: 1.25rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 1900px) {
+    body {
+        margin: 0 200px;
+    }
+    .about {
+        flex-wrap: wrap;
+    }
+}
